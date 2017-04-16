@@ -12,4 +12,5 @@ EOF
 
 rm -rf /tmp/.X*-lock /tmp/.X11-unix
 vnc4server $DISPLAY &&
+umask 0 &&
 cloud
